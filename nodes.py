@@ -188,7 +188,7 @@ class LLaVA_OneVision_Run:
             ).unsqueeze(0).to(device)
         
         if not llava_model["quantized"]:
-            model.to(device)
+            model.to_empty(device)
         result = model.generate(
             inputs=input_ids,
             images=image_tensors,
