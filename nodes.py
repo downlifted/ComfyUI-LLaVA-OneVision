@@ -28,7 +28,8 @@ class DownloadAndLoadLLaVAOneVisionModel:
                     'lmms-lab/llava-onevision-qwen2-7b-ov',
                     'lmms-lab/llava-onevision-qwen2-0.5b-ov',
                     'lmms-lab/llava-onevision-qwen2-7b-si',
-                    'lmms-lab/llava-onevision-qwen2-0.5b-si'
+                    'lmms-lab/llava-onevision-qwen2-0.5b-si',
+		    'lmms-lab/llama3-llava-next-8b'
                     
                     ],),
             "device": (["cuda","cpu","mps"],),
